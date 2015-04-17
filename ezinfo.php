@@ -13,7 +13,7 @@ class ezpcollectivereportsadminInfo
     function info()
     {
         return array(
-            'Name' => "<a href='http://bitbucket.org/brookinsconsulting/ezpfolderswithnocontentreport'>eZp Folders With No Content Report</a>",
+            'Name' => "<a href='http://bitbucket.org/brookinsconsulting/ezpcollectivereportsadmin'>eZp Collective Reports Admin</a>",
             'Version' => "0.1.0",
             'Copyright' => "Copyright (C) 1999 - 2016 <a href='http://brookinsconsulting.com'>Brookins Consulting</a> and <a href='http://thinkcreative.com'>Think Creative</a>",
             'Author' => "Brookins Consulting",
