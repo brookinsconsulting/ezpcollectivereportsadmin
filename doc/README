@@ -73,6 +73,7 @@ Supported extensions
 
 The following extensions default views are supported by default
 
+o  ezpcontenttreereport
 o  ezpsectioncontentreport
 o  ezpliteralobjectsreport
 o  ezpfolderswithnocontentreport

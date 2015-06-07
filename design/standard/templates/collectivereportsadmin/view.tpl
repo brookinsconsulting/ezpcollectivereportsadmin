@@ -19,6 +19,9 @@
         <div class="block">
             <p>Generate and view the reports available within the system</p>
             <ul>
+            {if $extensions|contains( 'ezpcontenttreereport' )}
+                <li>Reports of content tree content object nodes: <a href={'contenttreereport/report'|ezurl()}>Content Tree Report</a></li>
+            {/if}
             {if $extensions|contains( 'ezpsectioncontentreport' )}
                 <li>Reports of content within specific sections: <a href={'section/list'|ezurl()}>Section Reports</a></li>
             {/if}
