@@ -1,0 +1,24 @@
+{
+    "name": "brookinsconsulting/ezpcollectivereportsadmin",
+    "description": "eZ Publish Legacy extension which provides a admin siteaccesss top menu tab and module view to access the custom report extension module view reports on one single page. A simple solution which replaces multiple top menu tabs for each custom report extensions with a single tab and single module view which links to all other custom report extension module views. Great for sites which use multiple custom reports!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "custom reports", "reports", "report" ],
+    "homepage": "https://bitbucket.org/brookinsconsulting/ezpcollectivereportsadmin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ezpcollectivereportsadmin"
+    }
+}
